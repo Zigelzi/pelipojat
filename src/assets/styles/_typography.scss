@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.6;
+    font-family: var(--body-font);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-500);
+    transition: color .2s ease-out;
+
+    &:hover {
+        color: var(--primary-900);
+    }
+}
+
+.text-content {
+    max-width: var(--content-width);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-m {
+    font-size: var(--text-18);
+}
+
+.text-l {
+    font-size: var(--text-20);
+}
+
+.text-xl {
+    font-size: var(--text-36);
+}
+
+.text-xxl {
+    font-size: var(--text-60);
+    line-height: 1;
+}
+
+.logo-text {
+    line-height: 1;
+    font-family: var(--heading-font);
+}
+
+.logo-text-l {
+    font-size: var(--text-30);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo-text-m {
+    font-size: var(--text-18);
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-capitalized {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-pink {
+    color: var(--primary-400)
+}

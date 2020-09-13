@@ -1,0 +1,73 @@
+:root {
+    --primary-900: #181925;
+    --primary-800: #282A3E;
+    --primary-700: #383B57;
+    --primary-600: #484C70;
+    --primary-500: #585D89;
+    --primary-400: #6B6F9E;
+    --primary-300: #8487AE;
+    --primary-200: #9C9FBF;
+    --primary-100: #B5B7CF;
+    
+    --secondary: #a1a1a1;
+
+    --gray-900: #0F0D0D;
+    --gray-800: #282425;
+    --gray-700: #433D3D;
+    --gray-600: #5E5556;
+    --gray-500: #786D6F;
+    --gray-400: #9E9495;
+    --gray-300: #CAC4C5;
+    --gray-200: #E7E4E5;
+    --gray-100: #F3F2F2;
+
+    --gray: #dbdbdb;
+    --pink: #d8959e;
+    --black: #0e0e0e; // rgb(14,14,14)
+    --white: #f3f3f3;
+
+    // Font stack
+    --heading-font: 'Montserrat', serif;
+    --body-font: 'Open Sans', sans-serif;
+
+    // Typography
+    --text-12: 12px;
+    --text-14: 14px;
+    --text-16: 16px;
+    --text-18: 18px;
+    --text-20: 20px;
+    --text-22: 22px;
+    --text-24: 24px;
+    --text-30: 30px;
+    --text-36: 36px;
+    --text-48: 48px;
+    --text-60: 60px;
+    --text-72: 72px;
+
+    // Paddings
+    --p-xs: 5px;
+    --p-s: 10px;
+    --p-m: 15px;
+    --p-l: 25px;
+    --p-xl: 35px;
+    --p-xxl: 55px;
+    --p-section: 100px;
+
+    // Margins
+    --mg-xs: 5px;
+    --mg-s: 10px;
+    --mg-m: 15px;
+    --mg-l: 25px;
+    --mg-xl: 35px;
+    --mg-xxl: 55px;
+
+    --content-width: 660px;
+}
+
+// SCSS Variables where CSS native variables can't be used.
+
+// Breakpoints
+$bp-tablet: 480px;
+$bp-desktop-s: 768px;
+$bp-desktop-m: 1024px;
+$bp-desktop-l: 1200px;
